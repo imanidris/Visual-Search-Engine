@@ -1,0 +1,33 @@
+
+# Environment
+.env                    # API key 
+venv/                   # Virtual environment folder
+.venv/
+
+# Data 
+data/images/           
+data/videos/           
+data/embeddings/      
+data/faiss_index/
+data/images.json        
+data/videos.json        
+data/embeddings.npy     
+data/faiss_index.bin    
+
+# Python
+__pycache__/            
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+
+
+# OS
+.DS_Store               
+
+
+# Streamlit
+.streamlit/secrets.toml
+```
